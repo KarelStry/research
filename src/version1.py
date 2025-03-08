@@ -50,33 +50,49 @@ def extract_text(file_path: str) -> str:
     return cleaned_text
 
 
-
-
-
+def extract_exposure2(seed_words, text_string, buffer):
+    """
+    Extracts regions around seed words and their similar words using KeyBERT.
     
-
-
-
-
-def extract_exposure(exposure_words, txt_string, buffer) -> dict:
-    """
-        This takes in the str returned from extract_text, and extracts regions (+- buffer) where the exposure
-        words exist. 
-
-        For example, if buffer = 5, then wherever we identify an exposure word, we take the substring of words beginning
-        5 words before exposure word, and 5 words after the exposure words. This would create a string with 11 words. 
-        We would then add this to our return dict.
-
-        Input: 
-        - exposure_words: csv
-        - txt_string: str
-        - buffer: int
-
-        Output:
-        dict containing strings of words containing exposure words. These will later be analyzed with sentiment analysis processes
+    Args:
+        seed_words (list): List of seed words to search for in the text.
+        text_string (str): The text to analyze.
+        buffer (int): gives the number of words to extract left and right of the considered word
+        
+    Returns:
+        dict: Dictionary with seed words and similar words as keys, 
+              and the surrounding words as values.
     """
 
-    return {}
+
+    all_words = re.findall(r'\b\w+\b', text_string.lower())
+
+    kw_model = KeyBERT()
+
+    # Use KeyBERT to extract related words based on the full text
+    keywords = kw_model.extract_keywords(text_string, keyphrase_ngram_range=(1, 2), 
+                                         stop_words='english', top_n=10)
+    
+    # Extract just the words from the KeyBERT results
+    similar_words = set(word.lower() for word, _ in keywords)
+    
+    # Include both seed words and their similar words
+    search_words = set(seed_words) | similar_words
+
+    results = {}
+
+    for i, word in enumerate(all_words):
+        normalized_word = word.strip()
+        if normalized_word in search_words:
+            start_idx, end_idx = max(0, i - buffer), min(len(all_words), i + buffer + 1)
+            surrounding_words = ' '.join(all_words[start_idx:end_idx])
+
+            if normalized_word not in results:
+                results[normalized_word] = []
+
+            results[normalized_word].append(surrounding_words)
+
+    return results
 
 def sentiment_score():
     """

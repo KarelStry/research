@@ -1,0 +1,101 @@
+{
+    "6098277_T.xml": {
+        "total_count": 7,
+        "positive_count": 2,
+        "positive_percentage": 28.57,
+        "neutral_count": 5,
+        "neutral_percentage": 71.43,
+        "negative_count": 0,
+        "negative_percentage": 0.0
+    },
+    "6057182_T.xml": {
+        "total_count": 13,
+        "positive_count": 2,
+        "positive_percentage": 15.38,
+        "neutral_count": 11,
+        "neutral_percentage": 84.62,
+        "negative_count": 0,
+        "negative_percentage": 0.0
+    },
+    "5905949_T.xml": {
+        "total_count": 11,
+        "positive_count": 3,
+        "positive_percentage": 27.27,
+        "neutral_count": 8,
+        "neutral_percentage": 72.73,
+        "negative_count": 0,
+        "negative_percentage": 0.0
+    },
+    "5925365_T.xml": {
+        "total_count": 2,
+        "positive_count": 0,
+        "positive_percentage": 0.0,
+        "neutral_count": 2,
+        "neutral_percentage": 100.0,
+        "negative_count": 0,
+        "negative_percentage": 0.0
+    },
+    "5935673_T.xml": {
+        "total_count": 10,
+        "positive_count": 4,
+        "positive_percentage": 40.0,
+        "neutral_count": 6,
+        "neutral_percentage": 60.0,
+        "negative_count": 0,
+        "negative_percentage": 0.0
+    },
+    "5986501_T.xml": {
+        "total_count": 13,
+        "positive_count": 6,
+        "positive_percentage": 46.15,
+        "neutral_count": 7,
+        "neutral_percentage": 53.85,
+        "negative_count": 0,
+        "negative_percentage": 0.0
+    },
+    "6003801_T.xml": {
+        "total_count": 10,
+        "positive_count": 7,
+        "positive_percentage": 70.0,
+        "neutral_count": 3,
+        "neutral_percentage": 30.0,
+        "negative_count": 0,
+        "negative_percentage": 0.0
+    },
+    "6130579_T.xml": {
+        "total_count": 12,
+        "positive_count": 6,
+        "positive_percentage": 50.0,
+        "neutral_count": 5,
+        "neutral_percentage": 41.67,
+        "negative_count": 1,
+        "negative_percentage": 8.33
+    },
+    "5895255_T.xml": {
+        "total_count": 8,
+        "positive_count": 1,
+        "positive_percentage": 12.5,
+        "neutral_count": 6,
+        "neutral_percentage": 75.0,
+        "negative_count": 1,
+        "negative_percentage": 12.5
+    },
+    "5882253_T.xml": {
+        "total_count": 20,
+        "positive_count": 3,
+        "positive_percentage": 15.0,
+        "neutral_count": 11,
+        "neutral_percentage": 55.0,
+        "negative_count": 6,
+        "negative_percentage": 30.0
+    },
+    "6047806_T.xml": {
+        "total_count": 13,
+        "positive_count": 1,
+        "positive_percentage": 7.69,
+        "neutral_count": 11,
+        "neutral_percentage": 84.62,
+        "negative_count": 1,
+        "negative_percentage": 7.69
+    }
+}

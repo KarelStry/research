@@ -1,0 +1,98 @@
+{
+    "President": {
+        "text": "calculating that wrong Im just wondering what kind of new business is coming on there John Williford Ryder System Inc President Global Supply Chain Solutions 76 Well Jeff this is John Let me try to address a few things First on",
+        "label": "neutral",
+        "score": 0.8209728598594666,
+        "numeric_score": 0
+    },
+    "congress": {
+        "text": "Fowler KeyBanc Capital Markets Analyst Casey Deak Wells Fargo Securities Analyst Presentation Operator 1 Good morning and welcome to in congress Ryder System Incorporated fourth quarter 2015 earnings release conference call Todays call is being recorded If you have any objections",
+        "label": "neutral",
+        "score": 0.7323305010795593,
+        "numeric_score": 0
+    },
+    "Reform": {
+        "text": "you that during this presentation you will hear some forward looking statements within the meaning of the Private Securities Litigation Reform Act of 1995 These statements are based on Managements current expectations and are subject to uncertainty and changes in circumstances",
+        "label": "neutral",
+        "score": 0.7860185503959656,
+        "numeric_score": 0
+    },
+    "Act": {
+        "text": "that during this presentation you will hear some forward looking statements within the meaning of the Private Securities Litigation Reform Act of 1995 These statements are based on Managements current expectations and are subject to uncertainty and changes in circumstances Actual",
+        "label": "neutral",
+        "score": 0.8480126261711121,
+        "numeric_score": 0
+    },
+    "political": {
+        "text": "and changes in circumstances Actual results may differ materially from these expectations due to changes in economic business competitive market political and regulatory factors More detailed information about these factors is contained in this mornings earnings release and in Ryders filings",
+        "label": "neutral",
+        "score": 0.8953569531440735,
+        "numeric_score": 0
+    },
+    "Executive": {
+        "text": "the Securities and Exchange Commission Presenting on todays call are Robert Sanchez Chairman and Chief Executive Officer and Art Garcia Executive Vice President and Chief Financial Officer Additionally Dennis Cooke President of Global Fleet Management Solutions John Diez President of Dedicated",
+        "label": "neutral",
+        "score": 0.962466299533844,
+        "numeric_score": 0
+    },
+    "pension": {
+        "text": "in midyear 2016 but well continue to evaluate the appropriate timing primarily based on our declining balance sheet leverage Excluding pension costs and other items the comparable tax rate was 32 1 below the prior years rate of 34 4 reflecting",
+        "label": "neutral",
+        "score": 0.8294417262077332,
+        "numeric_score": 0
+    },
+    "revenue": {
+        "text": "accounting They have more trailers than tractors So I think you focus on the revenue growth Were looking at 9 revenue growth in 2016 so were really expecting that continued strong sales and strong growth there as we convert customers that",
+        "label": "neutral",
+        "score": 0.5763521194458008,
+        "numeric_score": 0
+    },
+    "power": {
+        "text": "Ryder System Inc President Global Fleet Management Solutions 15 David its Dennis again So the fleet age right now for power is at 37 months and as we look into next year we do see that declining slightly not much but",
+        "label": "neutral",
+        "score": 0.8562248945236206,
+        "numeric_score": 0
+    },
+    "party": {
+        "text": "including the impact of foreign exchange Total revenue was slightly down as higher operating revenue was offset by lower third party purchase transportation costs and lower fuel costs passed through to customers SCS earnings before tax were up 5 due to",
+        "label": "neutral",
+        "score": 0.7211281061172485,
+        "numeric_score": 0
+    },
+    "term": {
+        "text": "talk a little bit about why this environment matters for lease growth if a lot of these leases are long term contractual in nature they are trucks the people need and not as cyclical as the rental division Robert Sanchez Ryder",
+        "label": "neutral",
+        "score": 0.8695992231369019,
+        "numeric_score": 0
+    },
+    "moderate": {
+        "text": "especially important this year to consider the assumptions that are driving those numbers In our 2016 forecast anticipates slow to moderate growth for the overall economy Were expecting our average interest rate to be consistent with 2015 as lower fixed rate",
+        "label": "neutral",
+        "score": 0.7688830494880676,
+        "numeric_score": 0
+    },
+    "economy": {
+        "text": "consider the assumptions that are driving those numbers In our 2016 forecast anticipates slow to moderate growth for the overall economy Were expecting our average interest rate to be consistent with 2015 as lower fixed rate refinancing rates offset higher variable",
+        "label": "neutral",
+        "score": 0.8679340481758118,
+        "numeric_score": 0
+    },
+    "recession": {
+        "text": "in a weak economic environment Robert Sanchez Ryder System Inc Chairman and CEO 47 Well when you say the last recession if you look at 20082009 thats probably a tough comp because everything was down during that time But certainly in",
+        "label": "negative",
+        "score": 0.5722779035568237,
+        "numeric_score": -0.5722779035568237
+    },
+    "conservative": {
+        "text": "felt it was the right thing to do to start to get the rental fleet down further to be more conservative in our fleeting So those vehicles were out serviced and put at the UTC for sale So you did see",
+        "label": "neutral",
+        "score": 0.8326876163482666,
+        "numeric_score": 0
+    },
+    "policy": {
+        "text": "in a situation probably 2017 where things would be flat right in terms of depreciation So there wouldnt be depreciation policy movement one way or the other Art Garcia Ryder System Inc EVP and CFO 99 Right Todd Fowler KeyBanc Capital",
+        "label": "neutral",
+        "score": 0.8452945351600647,
+        "numeric_score": 0
+    }
+}
